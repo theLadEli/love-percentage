@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #2A2F4F ;
+    color: #FDE2F3;
+    text-align: center;
+}
+
+.container {
+    width: 70%;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 45px;
+    font-weight: lighter;
+    color: rgb(242, 227, 245);
+    margin: none !important;
+}
+
+p {
+    margin: none !important;
+}
+
+label {
+    color: #917FB3  ;
+}
+
+input[type=text] {
+    margin-bottom: 10px;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    width: 60%;
+    height: 50px;
+    line-height: 50px;
+    color: #917FB3;
+    border: solid 3px #917FB3;
+    border-radius: 8px;
+    background-color: #917FB341;
+    padding: 15px;
+}
+
+*:focus {
+    outline: none;
+}
+
+input[type=button] {
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    width: 60%;
+    height: 50px;
+    line-height: 50px;
+    color: #444369;
+    border-radius: 8px;
+    background-color: #917FB3;
+    box-shadow: none;
+    margin-top: 10px;
+    border: none;
+}
+    
+#results {
+    background-color: #917fb3;
+    color: #2A2F4F;
+    text-align: center;
+    border-left: solid 5px #444369;
+    padding: 25px;
+    display: none;
+    margin-top: 40px;
+}
+
+#percentage {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+/* font-family: 'Kalam', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Lobster', cursive; */
