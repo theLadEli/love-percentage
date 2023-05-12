@@ -5,7 +5,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: #2A2F4F ;
+    background: #2A2F4F;
     color: #FDE2F3;
     text-align: center;
 }
@@ -30,7 +30,7 @@ p {
 }
 
 label {
-    color: #917FB3  ;
+    color: #917FB3;
 }
 
 input[type=text] {
@@ -64,7 +64,7 @@ input[type=button] {
     margin-top: 10px;
     border: none;
 }
-    
+
 #results {
     background-color: #917fb3;
     color: #2A2F4F;
@@ -90,12 +90,25 @@ input[type=button] {
 @media only screen and (max-width: 767px) {
 
     input[type=text] {
-        padding:  3px 15px;
+        padding: 3px 15px;
         font-size: 17px;
     }
 
+    body {
+        overflow: hidden;
+    }
+
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        max-width: 550px;
+    }
+    
 }
-  
+
 
 /* font-family: 'Kalam', cursive;
 font-family: 'Pacifico', cursive;

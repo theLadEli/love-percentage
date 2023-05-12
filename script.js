@@ -30,7 +30,7 @@ function formSubmit() {
         message.innerText = "There's a chance, but it's not looking good. Maybe try lowering your expectations?";
       } else if (number >= 5 && number < 20) {
         message.innerText = "You might want to reconsider this relationship before it crashes and burns.";
-      } else if (number >= 5){
+      } else if (number < 5){
         message.innerText = "Well, looks like you two are about as compatible as oil and water.";
       } 
     
