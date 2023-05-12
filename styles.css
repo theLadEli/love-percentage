@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    width: 70%;
+    width: 550px;
     text-align: center;
     font-family: 'Kalam', cursive;
     text-align: center;
@@ -37,7 +37,7 @@ input[type=text] {
     margin-bottom: 10px;
     font-family: 'Pacifico', cursive;
     font-size: 30px;
-    width: 60%;
+    width: 80%;
     height: 50px;
     line-height: 50px;
     color: #917FB3;
@@ -54,7 +54,7 @@ input[type=text] {
 input[type=button] {
     font-family: 'Pacifico', cursive;
     font-size: 20px;
-    width: 60%;
+    width: 80%;
     height: 50px;
     line-height: 50px;
     color: #444369;
@@ -72,13 +72,19 @@ input[type=button] {
     border-left: solid 5px #444369;
     padding: 25px;
     display: none;
-    margin-top: 40px;
+    margin-top: 80px;
+    width: 65%;
+    margin: auto;
 }
 
 #percentage {
     font-family: 'Lobster', cursive;
     font-size: 40px;
     margin-bottom: 5px;
+}
+
+#message {
+    font-weight: bold;
 }
 
 /* font-family: 'Kalam', cursive;
